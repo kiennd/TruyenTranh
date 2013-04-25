@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    Truyen* tr =  [[Truyen alloc] initWithName:@"ChuCuoiCungTrang" Frame:self.view.bounds];
+    [self.view addSubview:tr];
 }
 
 - (void)didReceiveMemoryWarning

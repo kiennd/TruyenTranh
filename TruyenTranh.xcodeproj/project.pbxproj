@@ -18,6 +18,20 @@
 		4B611A7E17287F910071FBCF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B611A7D17287F910071FBCF /* Default-568h@2x.png */; };
 		4B611A8117287F910071FBCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B611A8017287F910071FBCF /* ViewController.m */; };
 		4B611A8417287F910071FBCF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B611A8217287F910071FBCF /* ViewController.xib */; };
+		4B611AA2172880840071FBCF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B611AA1172880840071FBCF /* AVFoundation.framework */; };
+		4B611AA4172886970071FBCF /* ChuCuoiCungTrang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B611AA3172886970071FBCF /* ChuCuoiCungTrang.mp3 */; };
+		4B611AAB172889160071FBCF /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B611AA8172889160071FBCF /* Page.m */; };
+		4B611AAC172889160071FBCF /* Truyen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B611AAA172889160071FBCF /* Truyen.m */; };
+		4B611AAE17288DDB0071FBCF /* hoGamrubendancon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B611AAD17288DDB0071FBCF /* hoGamrubendancon.jpg */; };
+		4B611AB017288F200071FBCF /* canlacay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B611AAF17288F200071FBCF /* canlacay.jpg */; };
+		4B611AB21728911F0071FBCF /* hoconhoiphuc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B611AB11728911F0071FBCF /* hoconhoiphuc.jpg */; };
+		4B611AB4172891FF0071FBCF /* vaccaymangvenha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B611AB3172891FF0071FBCF /* vaccaymangvenha.jpg */; };
+		4B611AB6172892E40071FBCF /* cuuonggia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B611AB5172892E40071FBCF /* cuuonggia.jpg */; };
+		4B611ABC172894B90071FBCF /* onggiatinhday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B611ABB172894B80071FBCF /* onggiatinhday.jpg */; };
+		4BE23A5817293E9000958DE8 /* ChuCuoiCungTrang.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BE23A5717293E8F00958DE8 /* ChuCuoiCungTrang.plist */; };
+		4BE695D51728FBC000719F55 /* ComicListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE695D31728FBC000719F55 /* ComicListVC.m */; };
+		4BE695D61728FBC000719F55 /* ComicListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE695D41728FBC000719F55 /* ComicListVC.xib */; };
+		4BE695D81728FBDF00719F55 /* comicList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BE695D71728FBDF00719F55 /* comicList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +48,26 @@
 		4B611A7917287F910071FBCF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4B611A7B17287F910071FBCF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4B611A7D17287F910071FBCF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		4B611A7F17287F910071FBCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4B611A8017287F910071FBCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B611A7F17287F910071FBCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = TruyenTranh/ViewController.h; sourceTree = "<group>"; };
+		4B611A8017287F910071FBCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = TruyenTranh/ViewController.m; sourceTree = "<group>"; };
 		4B611A8317287F910071FBCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4B611AA1172880840071FBCF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4B611AA3172886970071FBCF /* ChuCuoiCungTrang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ChuCuoiCungTrang.mp3; path = ../ChuCuoiCungTrang.mp3; sourceTree = "<group>"; };
+		4B611AA7172889160071FBCF /* Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		4B611AA8172889160071FBCF /* Page.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
+		4B611AA9172889160071FBCF /* Truyen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Truyen.h; sourceTree = "<group>"; };
+		4B611AAA172889160071FBCF /* Truyen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Truyen.m; sourceTree = "<group>"; };
+		4B611AAD17288DDB0071FBCF /* hoGamrubendancon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hoGamrubendancon.jpg; sourceTree = "<group>"; };
+		4B611AAF17288F200071FBCF /* canlacay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canlacay.jpg; sourceTree = "<group>"; };
+		4B611AB11728911F0071FBCF /* hoconhoiphuc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hoconhoiphuc.jpg; sourceTree = "<group>"; };
+		4B611AB3172891FF0071FBCF /* vaccaymangvenha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vaccaymangvenha.jpg; sourceTree = "<group>"; };
+		4B611AB5172892E40071FBCF /* cuuonggia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cuuonggia.jpg; sourceTree = "<group>"; };
+		4B611ABB172894B80071FBCF /* onggiatinhday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onggiatinhday.jpg; sourceTree = "<group>"; };
+		4BE23A5717293E8F00958DE8 /* ChuCuoiCungTrang.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ChuCuoiCungTrang.plist; sourceTree = "<group>"; };
+		4BE695D21728FBC000719F55 /* ComicListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComicListVC.h; sourceTree = "<group>"; };
+		4BE695D31728FBC000719F55 /* ComicListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComicListVC.m; sourceTree = "<group>"; };
+		4BE695D41728FBC000719F55 /* ComicListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComicListVC.xib; sourceTree = "<group>"; };
+		4BE695D71728FBDF00719F55 /* comicList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = comicList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B611AA2172880840071FBCF /* AVFoundation.framework in Frameworks */,
 				4B611A6817287F910071FBCF /* UIKit.framework in Frameworks */,
 				4B611A6A17287F910071FBCF /* Foundation.framework in Frameworks */,
 				4B611A6C17287F910071FBCF /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +88,9 @@
 		4B611A5B17287F910071FBCF = {
 			isa = PBXGroup;
 			children = (
+				4BE695D11728FB9A00719F55 /* vc */,
+				4BE695D01728FB8B00719F55 /* class */,
+				4B611AA017287FFC0071FBCF /* res */,
 				4B611A6D17287F910071FBCF /* TruyenTranh */,
 				4B611A6617287F910071FBCF /* Frameworks */,
 				4B611A6517287F910071FBCF /* Products */,
@@ -73,6 +108,7 @@
 		4B611A6617287F910071FBCF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B611AA1172880840071FBCF /* AVFoundation.framework */,
 				4B611A6717287F910071FBCF /* UIKit.framework */,
 				4B611A6917287F910071FBCF /* Foundation.framework */,
 				4B611A6B17287F910071FBCF /* CoreGraphics.framework */,
@@ -85,9 +121,6 @@
 			children = (
 				4B611A7617287F910071FBCF /* AppDelegate.h */,
 				4B611A7717287F910071FBCF /* AppDelegate.m */,
-				4B611A7F17287F910071FBCF /* ViewController.h */,
-				4B611A8017287F910071FBCF /* ViewController.m */,
-				4B611A8217287F910071FBCF /* ViewController.xib */,
 				4B611A6E17287F910071FBCF /* Supporting Files */,
 			);
 			path = TruyenTranh;
@@ -105,6 +138,46 @@
 				4B611A7D17287F910071FBCF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B611AA017287FFC0071FBCF /* res */ = {
+			isa = PBXGroup;
+			children = (
+				4BE23A5717293E8F00958DE8 /* ChuCuoiCungTrang.plist */,
+				4B611ABB172894B80071FBCF /* onggiatinhday.jpg */,
+				4B611AB5172892E40071FBCF /* cuuonggia.jpg */,
+				4B611AB3172891FF0071FBCF /* vaccaymangvenha.jpg */,
+				4B611AB11728911F0071FBCF /* hoconhoiphuc.jpg */,
+				4B611AAF17288F200071FBCF /* canlacay.jpg */,
+				4B611AAD17288DDB0071FBCF /* hoGamrubendancon.jpg */,
+				4B611AA3172886970071FBCF /* ChuCuoiCungTrang.mp3 */,
+				4BE695D71728FBDF00719F55 /* comicList.plist */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		4BE695D01728FB8B00719F55 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				4B611AA7172889160071FBCF /* Page.h */,
+				4B611AA8172889160071FBCF /* Page.m */,
+				4B611AA9172889160071FBCF /* Truyen.h */,
+				4B611AAA172889160071FBCF /* Truyen.m */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		4BE695D11728FB9A00719F55 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				4B611A7F17287F910071FBCF /* ViewController.h */,
+				4B611A8017287F910071FBCF /* ViewController.m */,
+				4B611A8217287F910071FBCF /* ViewController.xib */,
+				4BE695D21728FBC000719F55 /* ComicListVC.h */,
+				4BE695D31728FBC000719F55 /* ComicListVC.m */,
+				4BE695D41728FBC000719F55 /* ComicListVC.xib */,
+			);
+			name = vc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +236,16 @@
 				4B611A7C17287F910071FBCF /* Default@2x.png in Resources */,
 				4B611A7E17287F910071FBCF /* Default-568h@2x.png in Resources */,
 				4B611A8417287F910071FBCF /* ViewController.xib in Resources */,
+				4B611AA4172886970071FBCF /* ChuCuoiCungTrang.mp3 in Resources */,
+				4B611AAE17288DDB0071FBCF /* hoGamrubendancon.jpg in Resources */,
+				4B611AB017288F200071FBCF /* canlacay.jpg in Resources */,
+				4B611AB21728911F0071FBCF /* hoconhoiphuc.jpg in Resources */,
+				4B611AB4172891FF0071FBCF /* vaccaymangvenha.jpg in Resources */,
+				4B611AB6172892E40071FBCF /* cuuonggia.jpg in Resources */,
+				4B611ABC172894B90071FBCF /* onggiatinhday.jpg in Resources */,
+				4BE695D61728FBC000719F55 /* ComicListVC.xib in Resources */,
+				4BE695D81728FBDF00719F55 /* comicList.plist in Resources */,
+				4BE23A5817293E9000958DE8 /* ChuCuoiCungTrang.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +259,9 @@
 				4B611A7417287F910071FBCF /* main.m in Sources */,
 				4B611A7817287F910071FBCF /* AppDelegate.m in Sources */,
 				4B611A8117287F910071FBCF /* ViewController.m in Sources */,
+				4B611AAB172889160071FBCF /* Page.m in Sources */,
+				4B611AAC172889160071FBCF /* Truyen.m in Sources */,
+				4BE695D51728FBC000719F55 /* ComicListVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +282,7 @@
 				4B611A8317287F910071FBCF /* en */,
 			);
 			name = ViewController.xib;
+			path = TruyenTranh;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,6 +385,7 @@
 				4B611A8917287F910071FBCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

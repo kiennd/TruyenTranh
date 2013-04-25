@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ComicListVC.h
 //  TruyenTranh
 //
 //  Created by KIENND on 4/25/13.
@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Truyen.h"
-@interface ViewController : UIViewController
+
+@interface ComicListVC : UIViewController<UITableViewDelegate,UITableViewDataSource>
 
 @end
